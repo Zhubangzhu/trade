@@ -49,3 +49,10 @@ class AstockTrading(object):
 # __________________________________________________
 astock = AstockTrading()
 astock.getTick()
+
+class MaStrategy(AstockTrading):
+    def __init__(self):
+        super(MaStrategy, self).__init__()
+
+    def get_history_data_from_local_machine(self):
+        pass
